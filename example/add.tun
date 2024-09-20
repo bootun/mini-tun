@@ -1,0 +1,9 @@
+let a = 3
+let b = 2
+let c = a - b
+let add = function (a, b) {
+    let c = a + b
+    return a + c
+}
+
+let d = add(a, add(b, c))
